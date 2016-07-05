@@ -86,4 +86,8 @@ body {
         /* Para que entre el texto en las panatallas mas chicas*/
         font-size: 12px;
     }
+    .imagenHeader {
+        /*    le damos una altura a la imagen*/
+        height: 60px;
+    }
 }

@@ -79,15 +79,15 @@ body {
     .navbar-right {
         margin-top: 0px;
     }
+    .imagenHeader {
+        /*    le damos una altura a la imagen*/
+        height: 60px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .colorRojo {
         /* Para que entre el texto en las panatallas mas chicas*/
         font-size: 12px;
-    }
-    .imagenHeader {
-        /*    le damos una altura a la imagen*/
-        height: 60px;
     }
 }

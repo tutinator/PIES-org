@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Barra de navegacion
+   ========================================================================== */
+
+.navbar-inverse {
+    /*Sobre esxcribimos el bacground image de bootsrap.css y le pongo color transparente*/
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0, rgba(34, 34, 34, 0) 0%);
+    /*cambiamos seleccionanos el color que queremos*/
+    background-color: white;
+}
+
+.imagenHeader {
+    /*    le damos una altura a la imagen*/
+    height: 100px;
+    margin: 14px;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+    padding-top: 35px;
+    /*    hacemos que quede al lado del texo*/
+    display: inline-block;
+    /*    la mandamos para abajo del div*/
+    vertical-align: bottom;
+    /*    le damos el mismo margen que la imagen para que queden a la misma altua*/
+    margin-bottom: 14px;
+}
+
+.textoHeader {
+    /*lo mismo que verical line*/
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 14px;
+}
+
+.colorRojo {
+    color: red !important;
+    /*    sobre escribimos la sobra*/
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0)!important;
+}
+
+.navbar-right {
+    /*    fue la unica forma que encontre de bajar el texto de la derecha, despues cuando es mobile hay que sacarlo*/
+    margin-top: 80px;
+}
+
+
+/*color del boton*/
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: red;
+}
+
+.navbar-inverse .navbar-toggle:active {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: red;
+}
+
+body {
+    /*100px de la imagen + 14*2 del margen*/
+    margin-top: 128px;
+}
+
+
+/*=====================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 979px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 480px) {
+    .navbar-right {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .colorRojo {
+        /* Para que entre el texto en las panatallas mas chicas*/
+        font-size: 12px;
+    }
+}

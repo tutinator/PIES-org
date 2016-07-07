@@ -41,7 +41,8 @@
 
 .navbar-right {
     /*    fue la unica forma que encontre de bajar el texto de la derecha, despues cuando es mobile hay que sacarlo*/
-    margin-top: 80px;
+    margin-top: 25px;
+    /*    width: 450px;*/
 }
 
 
@@ -57,6 +58,11 @@
 
 .navbar-inverse .navbar-toggle {
     background-color: red;
+}
+
+.tablaIconos {
+    width: 100%;
+    text-align: center;
 }
 
 body {
@@ -88,6 +94,6 @@ body {
 @media only screen and (max-width: 320px) {
     .colorRojo {
         /* Para que entre el texto en las panatallas mas chicas*/
-        font-size: 12px;
+/*        font-size: 12px;*/
     }
 }

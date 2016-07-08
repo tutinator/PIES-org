@@ -69,6 +69,42 @@ body {
     /*100px de la imagen + 14*2 del margen*/
     margin-top: 128px;
 }
+.lightBoxGallery {
+  text-align: center;
+}
+.lightBoxGallery img {
+  margin: 5px;
+}
+
+.top-buffer { 
+  margin-top:40px; 
+}
+
+.carousel-caption-btn{
+
+  position:absolute;
+  right:1%;
+  bottom:0%;
+  left:99%;
+}
+
+
+
+.grid--borderBetween {
+    background: #ed5d07;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    width: 4px;
+    top: 0;
+}
+.color-letra{
+    color: white;
+}
+.backImagen {
+    height: 100%;
+    background: linear-gradient(180deg, red 80%, white 20%);
+}
 
 
 /*=====================================================

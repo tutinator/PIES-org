@@ -98,6 +98,13 @@ body {
     width: 4px;
     top: 0;
 }
+.color-letra{
+    color: white;
+}
+.backImagen {
+    height: 100%;
+    background: linear-gradient(180deg, red 80%, white 20%);
+}
 
 
 /*=====================================================
